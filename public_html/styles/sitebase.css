@@ -13,6 +13,7 @@ body{
 
 .scroll{
     background-color: #D69631 !important;
+    border-bottom: solid 1px #5a5a5a;
 }
 
 nav{
@@ -20,15 +21,28 @@ nav{
     -ms-transition: background-color .3s ease-in, color .1s ease-out, height .1s ease-in;
     -moz-transition: background-color .3s ease-in, color .1s ease-out, height .1s ease-in;
     -webkit-transition: background-color .3s ease-in, color .1s ease-out, height .1s ease-in;
-    transition: background-color .3s ease-in, color .1s ease-out, height .1s ease-in;
-}
-
-nav ul li a{
-    color: white !important;
-    font-size: 24px;
+    transition: background-color .3s ease-in, border-bottom-color .5s ease-in;
 }
 
 .content{
-    height: 1600px;
+    min-height: 800px;
+    /*background-color: #5a5a5a;*/
+}
+
+.light{
+    background-color: #d6d6d6;
+}
+
+.dark{
     background-color: #5a5a5a;
+
+}
+.medium{
+    /*background-color: #7a7a7a;*/
+    background-color: #A6A6A6;
+}
+
+
+input:focus{
+    outline: none;
 }
